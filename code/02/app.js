@@ -57,9 +57,17 @@ if (color === 'roheline') {
 */
 
 const parool = prompt('Mis on parool?')
-
+/*
 if (parool === 'parool') {
     alert('Tere tulemast!');
 } else {
     alert('Vale parool');
-}
+} */
+
+const existingParool = 'admin123';
+
+if (parool === existingParool) {
+ alert('Tere tulemast!');
+} else {
+    alert('Vale parool');
+} 
