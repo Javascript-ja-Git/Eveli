@@ -35,7 +35,7 @@ const temperatureFarenheit = temperatureCelsius * 9 / 5 + 32;
 alert('temperatuur Farenheiti skaalal: ' + temperatureFarenheit )*/
 
 //Tingimuslaused
-
+/*
 const color = prompt('Mis värvi on foorituli?')
 
 if (color === 'roheline') {
@@ -43,3 +43,16 @@ if (color === 'roheline') {
 } else {
     alert('Pead veel ootama');
 }
+
+
+if (color === 'roheline') {
+    alert('Võid edasi sõita');
+} else if ( color === 'kollane*') {
+    alert('Pead veel tükk aega ootama');
+} else if(color === 'punane') {
+    alert('Oota veel pisut')
+} else { 
+    alert('Sellist värvi ei tohiks olla');
+} 
+*/
+
