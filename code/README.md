@@ -23,4 +23,4 @@ Esimeses loengus vaatasime, mis on JavaScript, rääkisime muutujatest ja nende 
  - Aritmeetilised operaatorid (+, -, /, *)
  -  Määramisoperaatorid (=, *=, +=, -=)
  -  Võrdlusoperaatorid (==, ===, >, )
- -  Loogilised operaatorid (AND, OR, NOT - &&, )
+ -  Loogilised operaatorid (AND, OR, NOT - &&, ||) 
