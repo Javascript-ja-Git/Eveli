@@ -66,7 +66,7 @@ if (parool === 'parool') {
 
 const existingParool = 'admin123';
 
-if (parool === existingParool) {
+if (parool !== existingParool) {
  alert('Tere tulemast!');
 } else {
     alert('Vale parool');
