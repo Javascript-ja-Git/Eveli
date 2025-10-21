@@ -8,6 +8,8 @@ alert('Tere ' + name);
 // Vanuse arvutamine
 
 const year =  prompt ('Mis su sünniaasta on?')
+const currentyear = 2025;
+const age = currentyear - year;
 
-alert('Sinu vanus on '+ (2025 - year))
+alert('Sinu vanus on ' + age)
 
