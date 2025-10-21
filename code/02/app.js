@@ -106,5 +106,6 @@ if (operator === '+') {
     alert(number1 * number2);
 } else if (operator === '/') {
     alert(number1 / number2);
+} else {
+    alert('Seda funktsiooni hetkel kalkulaator ei toeta');
 }
-
