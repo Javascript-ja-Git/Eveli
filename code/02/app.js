@@ -84,6 +84,27 @@ if (age < ageLimit) {
 alert('Oled alaealine'); 
 } else {
     alert('Oled täisealine'); 
-} */
+} 
 
-    
+const age = (prompt('Sisesta oma vanus'));
+
+alert(typeof age);
+*/
+
+// Lihtne kalkulaator
+
+const number1 = Number(prompt('Sisesta esimene arv'));
+const number2 = Number(prompt('Sisesta teine arv'));
+
+const operator = prompt('Millist tehet soovid teha? (+, -, /, *)')
+
+if (operator === '+') {
+    alert(number1 + number2);
+} else if (operator === '-') {
+    alert(number1 - number2);
+} else if (operator === '*') {
+    alert(number1 * number2);
+} else if (operator === '/') {
+    alert(number1 / number2);
+}
+
