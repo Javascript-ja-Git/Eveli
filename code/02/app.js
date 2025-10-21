@@ -1,1 +1,3 @@
-alert('Hello world!');
+const name = prompt ('Mis su nimi on?')
+
+alert('Tere ' + name); 
