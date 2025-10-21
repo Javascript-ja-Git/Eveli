@@ -92,7 +92,7 @@ alert(typeof age);
 */
 
 // Lihtne kalkulaator
-
+/*
 const number1 = Number(prompt('Sisesta esimene arv'));
 const number2 = Number(prompt('Sisesta teine arv'));
 
@@ -108,4 +108,12 @@ if (operator === '+') {
     alert(number1 / number2);
 } else {
     alert('Seda funktsiooni hetkel kalkulaator ei toeta');
+}*/
+
+// Tsüklid
+
+const count = Number(prompt('Sisesta kordute arv'));
+
+for (let index = 1; index <= count; index = index + 1) {
+    console.log(index * 2)    
 }
