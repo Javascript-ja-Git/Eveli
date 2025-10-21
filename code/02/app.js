@@ -9,5 +9,5 @@ alert('Tere ' + name);
 
 const year =  prompt ('Mis su sünniaasta on?')
 
-alert('2025' - year)
+alert('Sinu vanus on '+ (2025 - year))
 
