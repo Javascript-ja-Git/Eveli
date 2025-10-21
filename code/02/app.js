@@ -24,7 +24,12 @@ const area = width * height;
 alert('Ristküliku pindala on: ' + area)*/
 
 //Temperatuuri teisendaja
-
+/*
 const C = prompt ('Mis on temperatuur Celsiuse kraadides?')
 
-alert( C * 9 / 5 + 32)
+alert( C * 9 / 5 + 32)*/
+
+const temperatureCelsius = prompt('Palun sisesta temperatuur Celsiuse kraadies')
+const temperatureFarenheit = temperatureCelsius * 9 / 5 + 32;
+
+alert('temperatuur Farenheiti skaalal: ' + temperatureFarenheit )
