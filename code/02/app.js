@@ -17,8 +17,14 @@ alert('Sinu vanus on ' + age)
 */
 
 //Ristküliku pindala arvutamine
-
+/*
 const width = prompt('Sisesta ristküliku laius')
 const height = prompt('Sisesta ristküliku kõrgus')
 const area = width * height;
-alert('Ristküliku pindala on: ' + area)
+alert('Ristküliku pindala on: ' + area)*/
+
+//Temperatuuri teisendaja
+
+const C = prompt ('Mis on temperatuur Celsiuse kraadides?')
+
+alert( C * 9 / 5 + 32)
