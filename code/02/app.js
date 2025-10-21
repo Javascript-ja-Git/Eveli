@@ -56,13 +56,15 @@ if (color === 'roheline') {
 } 
 */
 
-const parool = prompt('Mis on parool?')
+//Parooli kontrollimine
 /*
+const parool = prompt('Mis on parool?')
+
 if (parool === 'parool') {
     alert('Tere tulemast!');
 } else {
     alert('Vale parool');
-} */
+} 
 
 const existingParool = 'admin123';
 
@@ -71,3 +73,17 @@ if (parool !== existingParool) {
 } else {
     alert('Vale parool');
 } 
+
+// Vanuse kontroll
+
+const age = prompt('Kas sa oled täisealine? Sisesta oma vanus.');
+
+const ageLimit = 18;
+
+if (age < ageLimit) {
+alert('Oled alaealine'); 
+} else {
+    alert('Oled täisealine'); 
+} */
+
+    
