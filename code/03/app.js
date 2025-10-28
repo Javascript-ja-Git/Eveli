@@ -84,17 +84,26 @@ const result = add(2, 3);
 console.log(add(2, 3));
 console.log(add(5, 3));
 console.log(add(200, 3));*/
-
+/*
 function greeting(name) {
     const message = 'Tere,' + name;
 return message
 }
-/*
+
 console.log(greeting('Eveli')); // -> 'Tere, Eveli!'
 
 //Küsi kasutajalt nimi ja kasutades funktsiooni, kuva tervitus kasutajale.
-*/
+
 const username = prompt('Sisesta oma nimi');
 const message = greeting(username);
 alert(message);
+*/
+
+function triangleArea(base, height) {
+    const area = (base * height) / 2;
+    return area;
+}
+
+console.log(triangleArea(5, 10));
+console.log(triangleArea(8, 4));
 
