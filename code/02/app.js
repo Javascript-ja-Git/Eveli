@@ -115,11 +115,30 @@ if (operator === '+') {
 // const count = Number(prompt('Sisesta kordute arv'));
 
 // Korrutustabel
-
+/*
 const count = 11;
 
 for (let i = 1; i < count; i = i + 1) {
     for (let j = 1; j < count; j = j + 1) {
         console.log(i + '*' + j + '=' + i * j);
     }
+}
+
+const password = '1234';
+
+if (password=== '1234') {
+    alert('Parool on õige, Tere tulemast!');
+} else {
+    alert('Vale parool');
+} 
+
+if (password = '1234') {
+    alert ('Something');
+    }  else {
+        alert('Not something');
+        } */
+
+for(let i = 0; i < 5; i++) {
+    console.log(i);
+
 }
