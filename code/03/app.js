@@ -21,7 +21,7 @@ for(let i = 5; i <= 15; i++) {
    // console.log(i)
    }
 
-console.log(i) */
+console.log(i) 
 
 for(let i = 0; i > 0; i++) {
     console.log('hello');
@@ -32,3 +32,42 @@ do {
     console.log(i);
     i++;
 } while (i<=5)
+*/
+
+// Programm, mis küsib kasutajalt arvu ja siis väljastab nullist kuni sisestatud 
+// arvuni arvud(ka
+
+/*
+const count = Number(prompt('Palun sisesta number:'));
+
+let i = 0;
+let sum = 0;
+
+while(i <= count) {
+    if(i !== 3) {
+    sum = sum + i;
+    }
+    if (sum > 10) {
+        console.log(i,sum);
+    } else {
+    console.log(i, sum);}
+    i++;} 
+
+*/
+
+// Kivi-paber-käärid mäng
+
+const player1 = prompt('Mängija 1, vali Kivi - paber - käärid');
+const player2 = prompt('Mängija 2, vali Kivi - paber - käärid');
+    
+if(player1 === player2) {
+    alert('viik');
+} else if(player1 === 'kivi' && player2 === 'käärid') {
+    alert('Mängija1 võitis')
+} else if (player1 === 'paber' && player2 === 'kivi'){
+    alert('Mängija1 võitis')
+} else if(player1 ==='käärid' && player2 === 'paber') {
+    alert('Mängija1 võitis');
+} else{
+    alert('Mängija2 võitis')
+}

@@ -136,9 +136,9 @@ if (password = '1234') {
     alert ('Something');
     }  else {
         alert('Not something');
-        } */
+        } 
 
 for(let i = 0; i < 5; i++) {
     console.log(i);
 
-}
+*/
