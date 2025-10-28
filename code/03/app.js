@@ -56,7 +56,7 @@ while(i <= count) {
 */
 
 // Kivi-paber-käärid mäng
-
+/*
 const player1 = prompt('Mängija 1, vali Kivi - paber - käärid');
 const player2 = prompt('Mängija 2, vali Kivi - paber - käärid');
     
@@ -71,3 +71,30 @@ if(player1 === player2) {
 } else{
     alert('Mängija2 võitis')
 }
+*/
+
+//Funktsioonid
+/*
+function add(a, b) {
+    const sum = a + b;
+    return sum;
+}
+
+const result = add(2, 3);
+console.log(add(2, 3));
+console.log(add(5, 3));
+console.log(add(200, 3));*/
+
+function greeting(name) {
+    const message = 'Tere,' + name;
+return message
+}
+/*
+console.log(greeting('Eveli')); // -> 'Tere, Eveli!'
+
+//Küsi kasutajalt nimi ja kasutades funktsiooni, kuva tervitus kasutajale.
+*/
+const username = prompt('Sisesta oma nimi');
+const message = greeting(username);
+alert(message);
+
