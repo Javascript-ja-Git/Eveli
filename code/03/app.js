@@ -97,7 +97,7 @@ console.log(greeting('Eveli')); // -> 'Tere, Eveli!'
 const username = prompt('Sisesta oma nimi');
 const message = greeting(username);
 alert(message);
-*/
+
 
 function triangleArea(base, height) {
     const area = (base * height) / 2;
@@ -106,4 +106,45 @@ function triangleArea(base, height) {
 
 console.log(triangleArea(5, 10));
 console.log(triangleArea(8, 4));
+*/
 
+// Neljanda loengu algus
+
+/*for (let i = 0; i < 10; i++ ) {
+console.log(i);
+}*/
+
+/*
+let i = 0; 
+
+while(i < 10){
+    console.log(i);
+    i = i + 2;
+}
+
+
+let i = 0;
+
+do {
+ console.log(i);
+i = i + 2
+} while ( i < 10 );*/
+/*
+function divide(a, b) {
+    if (b === 0){
+        return 'Nulliga ei saa jagada';
+    }
+ const result = a / b;
+ return result;
+}
+
+const result =  divide(4, 2);
+
+console.log(result);
+/*
+console.log(divide(4, 2));
+
+console.log(divide(4, 2));
+console.log(divide(4, 0));
+console.log(divide(10, 0));
+*/
