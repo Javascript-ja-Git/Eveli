@@ -80,15 +80,15 @@ console.log(sales[randomNumber]); */
 
 
 // Funktsioon, mis tagastab arvud vahemikus 1-6
-
+/*
 function dice() {
  const randomNumber = Math.ceil(Math.random() * Number);
     return randomNumber;
 }
 
-/*const maxNumber = Number(prompt('Palun sisesta maksimaalne juhuarv'));
+const maxNumber = Number(prompt('Palun sisesta maksimaalne juhuarv'));
 
-alert(dice(maxNumber)); */
+alert(dice(maxNumber)); 
 
 const names = ['Jaan', 'Juta', 'Kalle', 'Malle', 'Juhan', 'Tiina'];
 
@@ -97,3 +97,24 @@ const randomNumber = dice(names.length);
 console.log(names[randomNumber - 1]);
 
 
+const names = ['Mati', 'Kati', 'Kalle', 'Malle'];
+
+for (let i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}
+
+*/
+
+function logElements(array) {
+for (let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+}
+ return array.length;
+}
+
+const names = ['Mati', 'Kati', 'Kalle', 'Malle'];
+const Numbers = [1, 2, 3, 4, 5, 6];
+
+logElements(names);
+const result = logElements(Numbers);
+console.log(result);
