@@ -194,6 +194,55 @@ for (let i = 0; i < books.length; i++) {
 }
  }
 console.log('Loetud lehekülgi kokku:', sumRead)
+
+
+function changeTitle() {
+    console.log('ChangeTitle');
+}
+
+
+function changeTitle() {
+    document.getElementById('title').innerHTML = 'Uus pealkiri';
+}
+
+
+function changeTitle() {
+    document.getElementById('title').innerHTML = 'Uus pealkiri';
+}
+
+function changeTitle2() {
+    document.getElementById('title2').innerHTML = 'Uus pealkiri';
+}
+
+
+
+function changeTitle() {
+    let text = document.getElementById('text-for-title').value.trim();
+    if (text === '' ) {
+        text = 'kuues loeng';
+    }
+    const color = document.getElementById('color-picker').value;
+    document.getElementById('title').style.color = color;
+    document.getElementById('title').innerHTML = text; 
+}
+
+function changeTitle2() {
+    let text = document.getElementById('text-for-changeTitle2').value
+    if (text === '') {
+        text = 'Juhuuuu';
+    }
+    document.getElementById('title2').innerHTML = 'veel uuem pealkiri';
+}
 */
 
 
+function login() {
+    const PIN = document.getElementById('PIN').value;
+    if (PIN === '1234') {
+        document.getElementById('status').innerHTML = 'Oled sisse logitud';
+        document.getElementById('status').style.color = 'green';
+} else {
+    document.getElementById('status').innerHTML = 'Ligipääs puudub';
+    document.getElementById('status').style.color = 'red';
+}
+}
