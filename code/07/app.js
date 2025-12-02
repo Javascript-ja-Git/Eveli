@@ -1,18 +1,38 @@
-const testButton = document.getElementById('test-button');
-function buttonPress () {
-    console.log('Nuppu vajutati');
-}
-testButton.addEventListener('click', buttonPress);
-
-const testButton1 = document.getElementById('test-button-1');
-testButton1.addEventListener('click', buttonPress);
-
-console.log('Nuppu vajutati');
-
 const container = document.getElementById('container');
-//Tekitame uue paragrahvi elemendi
-const newParagraph = document.createElement('p');
-//Lisame paragrahvile sisu
-newParagraph.innerText = 'Siin on uus sisu, mis on tekitatud kasutades JavaScripti';
-//Lisame loodud paragrahvi alaelemendina konteinerisse
-container.appendChild(newParagraph);
+/*
+for(let i = 0; i < titles.length; i++) {
+    const heading = document.createElement('h3');
+heading.innerText = titles[i];
+container.appendChild(heading);
+}
+*/
+
+for(let i = 0; i < posts.length; i++) { 
+    const post = document.createElement('div');
+    post.style.backgroundColor = 'lightPink';
+    // TITLE
+const heading = document.createElement('h3');
+heading.innerText = 'Pealkiri: ' + posts[i].title;
+heading.style.color = 'Purple';
+
+post.appendChild(heading);
+// CONTENT
+const content = document.createElement('p');
+content.innerText = 'Sisu:' + posts[i].content;
+heading.style.color = 'Purple';
+post.appendChild(content);
+// AUTOR
+const author = document.createElement('p');
+author.innerText = 'Autor:' + posts[i].author;
+post.appendChild(author);
+heading.style.color = 'Purple';
+author.style.frontStyle = 'italic';
+container.appendChild(post);
+ }
+
+
+ 
+
+
+
+
